@@ -18,7 +18,7 @@ function PageExercice1() {
         composant afin d'afficher le titre et l&apos;année dans 2 paragraphes
         respectifs.
       </p>
-      <p>Le composant sera affiché juste en dessous :</p>
+      <p>Rendu du composant :</p>
       <Card title="Date de la 1ère version de React" year={2013} />
     </div>
   );

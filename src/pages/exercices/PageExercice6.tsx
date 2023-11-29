@@ -14,7 +14,7 @@ function PageExercice6() {
         pouvez vous aider du composant "User" déjà présent dans le fichier pour
         afficher un utilisateur.
       </p>
-      <p>Le composant sera affiché juste en dessous :</p>
+      <p>Rendu du composant :</p>
       <ArrayList />
     </div>
   );

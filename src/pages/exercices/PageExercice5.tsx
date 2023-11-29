@@ -11,7 +11,7 @@ function PageExercice5() {
         Vous devrez éditer le fichier <b>"answers/ListernerKeyboard.tsx"</b> et
         compléter le composant afin de gérer l&apos;affichage du code.
       </p>
-      <p>Le composant sera affiché juste en dessous :</p>
+      <p>Rendu du composant :</p>
       <ListernerKeyboard />
     </div>
   );

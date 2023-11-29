@@ -24,7 +24,7 @@ function PageExercice2() {
         compléter le composant afin de gérer l&apos;état interne et
         d&apos;afficher le texte correspondant, de la bonne couleur évidemment
       </p>
-      <p>Le composant sera affiché juste en dessous :</p>
+      <p>Rendu du composant :</p>
       <ToggleButton />
     </div>
   );

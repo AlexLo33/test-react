@@ -12,10 +12,7 @@ function PageExercice3() {
         compléter le composant afin de gérer la modification du titre de la
         page.
       </p>
-      <p>
-        Le composant est déjà appelé juste en dessous, pas besoin de
-        s&apos;occuper de ça....
-      </p>
+      <p>Rendu du composant :</p>
       <UpdateTitle />
     </div>
   );

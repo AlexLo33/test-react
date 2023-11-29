@@ -13,7 +13,7 @@ function PageExercice4() {
         compléter le composant afin de gérer la modification du titre de la
         page.
       </p>
-      <p>Le composant sera affiché juste en dessous :</p>
+      <p>Rendu du composant :</p>
       <ToggleButton />
     </div>
   );
