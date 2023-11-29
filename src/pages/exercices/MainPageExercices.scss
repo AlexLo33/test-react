@@ -1,0 +1,27 @@
+.MainPageExercices {
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+
+  .PageExercice {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+
+    > p {
+      margin: 15px 0;
+    }
+
+    .OmniButton {
+      max-width: 235px;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+}

@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+// App
+.App {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+
+  header {
+    min-width: 280px;
+
+    .header-item-admin {
+      margin-top: auto;
+    }
+  }
+
+  .container {
+    position: relative;
+    flex-grow: 1;
+    padding: 40px 60px;
+
+    > * {
+      height: 100%;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.Card {
+  width: 450px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.ToggleSwitch {
+  width: 60px;
+  height: 34px;
+  line-height: 34px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+}
+
+.OmniBadge {
+  margin: 20px auto;
+}
+
+.ArrayList {
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  .User {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .name {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+
+    .age {
+      margin-left: 10px;
+      text-decoration: underline;
+    }
+  }
+}
