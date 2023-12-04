@@ -1,4 +1,4 @@
-function MainPageExercices() {
+function PageExercice0() {
   return (
     <div className="PageExercice exercice-0">
       <p>
@@ -17,4 +17,4 @@ function MainPageExercices() {
   );
 }
 
-export default MainPageExercices;
+export default PageExercice0;

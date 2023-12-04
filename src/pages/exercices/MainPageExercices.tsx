@@ -10,12 +10,9 @@ import PageExercice4 from "./PageExercice4";
 import PageExercice5 from "./PageExercice5";
 import PageExercice6 from "./PageExercice6";
 
-// Styles
-import "./MainPageExercices.scss";
-
 function MainPageExercices() {
   const currentExerciceSession =
-    sessionStorage.getItem("current-exercice") ?? "1";
+    sessionStorage.getItem("current-exercice") ?? "0";
   const [currentExercice, setCurrentExercice] = useState(
     +currentExerciceSession
   );
