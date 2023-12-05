@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { TextField } from "@omng/storybook";
 
 interface Item {
@@ -24,6 +24,7 @@ function ExpensiveList() {
     <div className="ExpensiveList">
       <TextField
         label="Filtrer un numéro de la liste"
+        placeholder="Cherchez un numéro..."
         value={filter}
         onChange={(event) => setFilter(event.target.value)}
       />

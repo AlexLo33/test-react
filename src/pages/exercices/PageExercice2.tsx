@@ -4,9 +4,9 @@ function PageExercice2() {
   return (
     <div className="PageExercice exercice-2">
       <p>
-        Créer un composant <b>"ToggleButton"</b> qui va gérer un état en
-        interne. Cet état permettra de switcher entre 2 variants de Bouton :
-        "primary" et "secondary"
+        Modifier le composant <b>"ToggleButton"</b> pour qu'il puisse gérer un
+        état en interne. Cet état permettra de switcher entre 2 variants de
+        Bouton : "primary" et "secondary"
       </p>
       <pre>
         {`

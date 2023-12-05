@@ -33,7 +33,7 @@ function MainPageBugs() {
         </Button>
         <Button
           onClick={() => setCurrentBug(currentBug + 1)}
-          disabled={currentBug === 6}
+          disabled={currentBug === 3}
         >
           Suivant
         </Button>

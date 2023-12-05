@@ -4,8 +4,8 @@ function PageExercice3() {
   return (
     <div className="PageExercice exercice-3">
       <p>
-        Créer un composant <b>"UpdateTitle"</b> qui, une fois rendu, modifie le
-        titre de la page en <i>"React - Exercice 3"</i>.
+        Modifier le composant <b>"UpdateTitle"</b> pour que, une fois rendu, il
+        modifie le titre de la page en <i>"React - Exercice 3"</i>.
       </p>
       <p>
         Vous devrez éditer le fichier <b>"answers/UpdateTitle.tsx"</b> et

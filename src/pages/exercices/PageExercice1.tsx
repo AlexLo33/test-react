@@ -4,7 +4,8 @@ function PageExercice1() {
   return (
     <div className="PageExercice exercice-1">
       <p>
-        Créer un composant <b>"Card"</b> qui prend en props 2 paramètres :{" "}
+        Modifier le composant <b>"Card"</b> pour qu'il prenne en props 2
+        paramètres :{" "}
       </p>
       <pre>
         {`
